@@ -15,6 +15,7 @@ function App() {
       style={{ backgroundColor: color }}
     >
       {/* [import './index.css'] was missing from index.js and hence tailwind wasn't working! */}
+      {/* Actually I removed it while cleaning the files ans folders! */}
       {/* Note: One trick to find if tailwind is being applied or not, is to check if 
       the <h1> tag does its job or not! Bcoz with tailwind, the basic changes made by tags
       is not applied!!  */}
